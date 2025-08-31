@@ -1,4 +1,4 @@
-# leakAgent: RL-based Red-teaming Agent for LLM Privacy Leakage
+# LeakAgent: RL-based Red-teaming Agent for LLM Privacy Leakage
 
 ## How to run
 
