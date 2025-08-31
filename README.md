@@ -1,4 +1,4 @@
-# ReLeak: RL-based Red-teaming for LLM Privacy Leakage
+# leakAgent: RL-based Red-teaming Agent for LLM Privacy Leakage
 
 ## How to run
 
@@ -51,4 +51,17 @@ python evaluate_task.py \
             --server_url http://localhost:54321/v1 \
             --api_key empty \
             --dataset_path test_data_pleak.csv
+```
+
+
+### 4. Reference
+If you find this repository useful, please consider citing the following paper:
+
+```bibtex
+@inproceedings{nie2025leakagent,
+      title={LeakAgent: RL-based Red-teaming Agent for LLM Privacy Leakage}, 
+      author={Yuzhou Nie and Zhun Wang and Ye Yu and Xian Wu and Xuandong Zhao and Wenbo Guo and Dawn Song},
+      year={2025},
+      booktitle={COLM}, 
+}
 ```
